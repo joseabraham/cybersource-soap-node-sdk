@@ -1,0 +1,56 @@
+# Source and development files
+test/
+coverage/
+.nyc_output/
+
+# Development configuration
+.eslintrc.js
+.eslintignore
+.prettierrc
+.prettierignore
+jest.config.js
+
+# Git files
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env*
+
+# Temporary files
+tmp/
+temp/
+
+# Build artifacts
+*.tgz
+
+# Certificate files (security)
+*.p12
+*.pem
+*.key
+*.crt
+*.csr
+
+# Test credentials
+test-credentials.json
+credentials.json
+
+# Documentation source (keep only README.md)
+docs/
+
+# Examples that contain sensitive data
+examples/credentials/

@@ -1,0 +1,7 @@
+node_modules/
+coverage/
+*.log
+.DS_Store
+*.d.ts
+package-lock.json
+CHANGELOG.md
