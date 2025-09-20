@@ -1,8 +1,8 @@
 # CyberSource SOAP Node.js SDK
 
-[![npm version](https://img.shields.io/npm/v/cybersource-soap-node-sdk.svg)](https://www.npmjs.com/package/cybersource-soap-node-sdk)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-[![Downloads](https://img.shields.io/npm/dm/cybersource-soap-node-sdk.svg)](https://www.npmjs.com/package/cybersource-soap-node-sdk)
+[![npm version](https://img.shields.io/npm/v/cybersource-soap-node-sdk?style=flat-square)](https://www.npmjs.com/package/cybersource-soap-node-sdk)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=flat-square)](https://opensource.org/licenses/ISC)
+[![npm downloads](https://img.shields.io/npm/dm/cybersource-soap-node-sdk?style=flat-square)](https://www.npmjs.com/package/cybersource-soap-node-sdk)
 
 **Unofficial Node.js SDK for CyberSource SOAP API with P12 certificate support**
 
