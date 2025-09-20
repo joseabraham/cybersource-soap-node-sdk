@@ -1,8 +1,8 @@
 # CyberSource SOAP Node.js SDK
 
-[![npm version](https://badge.fury.io/js/cybersource-soap-node-sdk.svg)](https://badge.fury.io/js/cybersource-soap-node-sdk)
+[![npm version](https://badge.fury.io/js/cybersource-soap-node-sdk.svg)](https://www.npmjs.com/package/cybersource-soap-node-sdk)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-[![Node.js CI](https://github.com/yourusername/cybersource-soap-node-sdk/workflows/Node.js%20CI/badge.svg)](https://github.com/yourusername/cybersource-soap-node-sdk/actions)
+[![Downloads](https://img.shields.io/npm/dm/cybersource-soap-node-sdk.svg)](https://www.npmjs.com/package/cybersource-soap-node-sdk)
 
 **Unofficial Node.js SDK for CyberSource SOAP API with P12 certificate support**
 
@@ -207,6 +207,16 @@ Charge a previously tokenized card
 ```javascript
 const result = await api.chargeSubscribedCard(chargeSubRequest, 100.0);
 // Returns: { message: "Success", code: 100 }
+```
+
+#### `getSubscriptionInfo(subscriptionInfoRequest)`
+
+Retrieve information about a subscription by its ID
+
+```javascript
+const subscriptionInfoRequest = new api.Models.SubscriptionInfoRequest('SUB-123456');
+const result = await api.getSubscriptionInfo(subscriptionInfoRequest);
+// Returns: { message: "Success", code: 100, subscriptionInfo: {...} }
 ```
 
 #### `normalRequest(requestObject)`
@@ -486,5 +496,9 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 - [CyberSource Official SDKs](https://developer.cybersource.com/hello-world/sandbox.html)
 
 ---
+
+## 🙏 Acknowledgments
+
+This project builds upon the original work by [**Jaime Fonseca**](https://www.npmjs.com/~jaimejosu3) who created the first version of the CyberSource SOAP Node.js SDK. His foundational work made this enhanced version possible.
 
 **Made with ❤️ by the community for the community**
